@@ -1,31 +1,122 @@
-Gemisphere LLP: Your Trusted Garment Manufacturing Partner
-Welcome to Gemisphere LLP, a leading garment manufacturing company based in Telangana. Established on October 14, 2019, we bring over 15 years of industry experience to the table, providing top-quality garment manufacturing services for various brands and retailers.
-Our Expertise and Facilities
-At Gemisphere LLP, we operate with 300 state-of-the-art sewing machines spread across three strategically located manufacturing units in Telangana. Our efficient infrastructure and skilled workforce enable us to deliver high-quality garments while maintaining excellent turnaround times and meeting the diverse needs of our clients.
-Each of our manufacturing units is equipped with advanced machinery and modern technology, ensuring we can handle large-scale productions and small batch orders with equal precision and care. With dedicated teams in each unit, we manage every stage of production, ensuring quality, consistency, and timely delivery.
-Over the past five years, we have specialized in stitching school uniforms for various institutions across Telangana. Our experience in this niche has made us a trusted partner for schools, ensuring that we deliver durable, comfortable, and high-quality uniforms on time, every time.
-Why Choose Gemisphere LLP?
-•	Proven Track Record: With 15 years of hands-on experience in the garment industry, we have honed our expertise in fabric sourcing, design execution, stitching, finishing, and quality control.
-•	Advanced Machinery: We are equipped with 300 sewing machines, ensuring high production capacity and precision in every garment we manufacture.
-•	Multiple Units for Scalability: Our three production units offer the flexibility to scale up production based on demand, making us the perfect partner for both small and large orders.
-•	School Uniform Expertise: For the past five years, we have been stitching school uniforms for various educational institutions in Telangana. Our expertise ensures that each uniform is crafted to meet the unique requirements of students, with comfort, durability, and style in mind.
-•	Quality Focus: We pride ourselves on maintaining the highest quality standards in every phase of production. From raw materials to the final product, our experienced team rigorously checks each garment to ensure it meets both industry standards and client expectations.
-•	Timely Delivery: Our team’s efficiency and commitment to deadlines allow us to deliver your products on time, every time, without compromising on quality.
-Our Services
-We specialize in manufacturing a wide range of garments, including but not limited to:
-•	Casual and formal wear
-•	Activewear
-•	Kidswear
-•	Outerwear
-•	School uniforms
-•	Custom designs
-We work closely with brands and institutions to ensure their unique specifications are met, providing a seamless production process and a finished product that perfectly aligns with their vision.
-Our Vision
-At Gemisphere LLP, our goal is to continue growing as a trusted name in the garment manufacturing industry. Through dedication, innovation, and customer-centric solutions, we aim to be the preferred partner for garment production in India and beyond.
-Contact Us
-We’re ready to partner with you and take your garment manufacturing needs to the next level. For inquiries, please contact us:
-•	Email: gemisphere24@gmail.com
-•	Phone: 9985200333
-•	Location: Telangana, India
-Explore how Gemisphere LLP can bring your designs to life with precision, quality, and speed. Let’s build something great together!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemisphere LLP</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #f8f8f8; }
+        header { background: #003366; color: #fff; padding: 20px 0; text-align: center; }
+        nav { background: #0055aa; color: white; display: flex; justify-content: center; padding: 10px; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        .container { width: 90%; margin: auto; overflow: hidden; padding: 20px; background: #fff; }
+        h1, h2 { color: #003366; }
+        ul { margin: 10px 0; padding-left: 20px; }
+        .gallery { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 20px; }
+        .gallery-item { text-align: center; max-width: 300px; }
+        .gallery img { width: 100%; height: auto; border: 1px solid #ccc; border-radius: 4px; }
+        .gallery-item p { margin-top: 8px; font-weight: bold; color: #003366; }
+        footer { background: #003366; color: #fff; text-align: center; padding: 10px 0; margin-top: 40px; }
+        .page { display: none; }
+        .page.active { display: block; }
+    </style>
+    <script>
+        function showPage(id) {
+            document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+            document.getElementById(id).classList.add('active');
+        }
+        window.onload = () => showPage('home');
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Gemisphere LLP</h1>
+        <p>Your Trusted Garment Manufacturing Partner</p>
+    </header>
+    <nav>
+        <a href="#" onclick="showPage('home')">Home</a>
+        <a href="#" onclick="showPage('projects')">Projects & Experience</a>
+        <a href="#" onclick="showPage('contact')">Contact Us</a>
+    </nav>
+
+    <div class="container">
+        <div id="home" class="page">
+            <h2>About Us</h2>
+            <p>Welcome to Gemisphere LLP, a leading garment manufacturing company based in Telangana. Established on October 14, 2019, we bring over 15 years of industry experience, offering top-quality garment manufacturing services for various brands and retailers.</p>
+
+            <h2>Our Expertise and Facilities</h2>
+            <p>We operate with 300 state-of-the-art sewing machines across three manufacturing units in Telangana. Our infrastructure and skilled workforce ensure quality garments, quick turnaround times, and flexibility for both large and small orders.</p>
+            <p>We specialize in stitching school uniforms and are known for timely, durable, and comfortable products.</p>
+
+            <h2>Why Choose Gemisphere LLP?</h2>
+            <ul>
+                <li><strong>Proven Track Record:</strong> 15 years of industry experience.</li>
+                <li><strong>Advanced Machinery:</strong> 300 sewing machines ensure high capacity and precision.</li>
+                <li><strong>Multiple Units:</strong> Scalable operations with three production locations.</li>
+                <li><strong>School Uniform Experts:</strong> Trusted by institutions across Telangana.</li>
+                <li><strong>Quality Focus:</strong> Strict checks from raw material to finished product.</li>
+                <li><strong>Timely Delivery:</strong> Reliable and efficient turnaround times.</li>
+            </ul>
+
+            <h2>Our Vision</h2>
+            <p>Our goal is to grow as a trusted name in garment manufacturing, offering innovative and customer-centric solutions to partners across India and beyond.</p>
+        </div>
+
+        <div id="projects" class="page">
+            <h2>Past Projects & Experience</h2>
+            <p>We have delivered quality school uniforms, casual wear, and custom garments for a variety of clients, including reputed schools, retail brands, and local institutions across Telangana and neighboring states.</p>
+
+            <h2>Our Manufacturing Units</h2>
+            <p>Each unit is equipped with modern machinery and experienced staff, allowing us to efficiently handle bulk and custom orders.</p>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="file:///C:/Users/Dell/OneDrive/Desktop/New%20folder%20(18)/unit%20pics/pic_2.jpg" alt="Manufacturing Unit 2">
+                    <p>Manufacturing Unit 2</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="file:///C:/Users/Dell/OneDrive/Desktop/New%20folder%20(18)/unit%20pics/pic_3.jpg" alt="Manufacturing Unit 3">
+                    <p>Manufacturing Unit 3</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="file:///C:/Users/Dell/OneDrive/Desktop/New%20folder%20(18)/unit%20pics/pic_4.jpg" alt="Manufacturing Unit 4">
+                    <p>Manufacturing Unit 4</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="file:///C:/Users/Dell/OneDrive/Desktop/New%20folder%20(18)/unit%20pics/pic_5.jpg" alt="Manufacturing Unit 5">
+                    <p>Manufacturing Unit 5</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="file:///C:/Users/Dell/OneDrive/Desktop/New%20folder%20(18)/unit%20pics/pic_6.jpg" alt="Manufacturing Unit 6">
+                    <p>Manufacturing Unit 6</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="file:///C:/Users/Dell/OneDrive/Desktop/New%20folder%20(18)/unit%20pics/pic_7.jpg" alt="Manufacturing Unit 7">
+                    <p>Manufacturing Unit 7</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="file:///C:/Users/Dell/OneDrive/Desktop/New%20folder%20(18)/unit%20pics/pic_8.jpg" alt="Manufacturing Unit 8">
+                    <p>Manufacturing Unit 8</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="file:///C:/Users/Dell/OneDrive/Desktop/New%20folder%20(18)/unit%20pics/pic3.jpg" alt="Manufacturing Unit 9">
+                    <p>Manufacturing Unit 9</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="page">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:gemisphere24@gmail.com">gemisphere24@gmail.com</a></p>
+            <p>Phone: <a href="tel:+919985200333">9985200333</a></p>
+            <p>Location: Telangana, India</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Gemisphere LLP. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
 
